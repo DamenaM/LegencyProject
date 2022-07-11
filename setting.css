@@ -20,6 +20,19 @@ body {
     
 }
 
+@media screen and (max-width: 50px) {
+    main {
+      background-color: rgba(172, 238, 172, 0.651);
+    }
+  }
+
+  code {
+    background-color: #f7f7f7;
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    line-height: 22px;
+  }
 
 #navBar {
     height: 100%;
@@ -71,3 +84,4 @@ p, li {
     font-size: 18px;
     line-height: 30px;
 }
+
